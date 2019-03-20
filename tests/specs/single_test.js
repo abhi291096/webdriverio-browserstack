@@ -4,7 +4,7 @@ describe('Google\'s Search Functionality', function() {
   it('can find search results', function () {
     
 //     this.timeout(80000)
-//     browser.url('http://user1:passsword@localhost:80')
+//     browser.url('http://localhost:80')
 //     .pause(5000);
     browser
       .url('http://user1:passsword@localhost:80')
