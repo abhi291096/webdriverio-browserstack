@@ -7,7 +7,7 @@ describe('Google\'s Search Functionality', function() {
 //     browser.url('http://localhost:80')
 //     .pause(5000);
     browser
-      .url('http://user1:passsword@localhost:80')
+      .url('http://localhost:80')
       .url('https://www.google.com/ncr')
       .setValue('*[name="q"]','BrowserStack\n')
       .pause(5000);
