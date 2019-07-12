@@ -10,8 +10,8 @@ pool:
   vmImage: 'Ubuntu-16.04'
 
 steps:
-- script: export BROWSERSTACK_USERNAME=your_username
-- script: export BROWSERSTACK_ACCESS_KEY=your_access_key
+- script: export BROWSERSTACK_USERNAME=abhishekmordani2
+- script: export BROWSERSTACK_ACCESS_KEY=zHxH3WNeJSXg7iFQCAG3
 - script: echo Hello, world!
 - script: echo Hello, world!
 - script: npm install
