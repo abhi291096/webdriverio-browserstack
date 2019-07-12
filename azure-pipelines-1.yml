@@ -14,6 +14,7 @@ steps:
 - script: export BROWSERSTACK_ACCESS_KEY=zHxH3WNeJSXg7iFQCAG3
 - script: echo Hello, world!
 - script: echo Hello, world!
+- script: npm install sinon
 - script: npm install
 - script: npm install wdio-mocha-framework
 - script: npm run single
