@@ -14,6 +14,7 @@ steps:
 - script: export BROWSERSTACK_ACCESS_KEY=your_access_key
 - script: echo Hello, world!
 - script: echo Hello, world!
+- script: npm install wdio-mocha-framework
 - script: npm run single
   displayName: 'Run a one-line script'
 
