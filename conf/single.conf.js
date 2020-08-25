@@ -26,6 +26,12 @@ exports.config = {
   
   framework: 'mocha',
   mochaOpts: {
-      ui: 'bdd'
+      ui: 'bdd',
+    reporters: ['browserstack'],
+  reporterOptions: {
+      browserstack: {
+          outputDir: '/Users/abhishekmordani/Documents/stack/lang/node/Tick314123'
+      }
+  }
   }
 }
