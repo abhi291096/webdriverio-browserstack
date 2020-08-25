@@ -26,7 +26,9 @@
   "homepage": "https://github.com/browserstack/webdriverio-browserstack#readme",
   "dependencies": {
     "browserstack-local": "^1.0.0",
-    "webdriverio": "^4.0.5"
+    "webdriverio": "^4.0.5",
+    "wdio-browserstack-reporter": "~0.1.1"
+
   },
   "devDependencies": {
     "wdio-mocha-framework": "^0.2.11"
